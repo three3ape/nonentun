@@ -1,0 +1,69 @@
+/* .hidden {
+  display: none;
+}
+body,
+html {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-size: cover;
+  background-position: center center;
+
+  animation: fadeIn 1s ease-in-out forwards;
+  animation-delay: 0.5s;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#background {
+  background-position: center center;
+  background-size: cover;
+  background: center;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+#clock {
+  font-size: 150px;
+  color: white;
+  margin: 0;
+}
+#greeting {
+  color: white;
+}
+#center {
+  background-color: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+#todo-form {
+  display: block;
+}
+#quotes {
+  text-align: center;
+  color: white;
+  padding-bottom: 10px;
+}
+ul,
+li,
+span {
+  padding-right: 16px;
+}
+ul {
+  list-style-position: inside;
+  list-style-type: none;
+  padding: 0;
+}
+
+button {
+  border: none;
+  padding: 0;
+} */
