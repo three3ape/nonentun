@@ -97,6 +97,25 @@ input:hover::placeholder {
 #greeting:hover {
   color: rgb(255, 190, 223);
 }
+#todo-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+}
+#todo-list li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#todo-list button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+#todo-list button:hover {
+  cursor: pointer;
+}
 /* body,
 html {
   overflow: hidden;
