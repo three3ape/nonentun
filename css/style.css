@@ -108,7 +108,7 @@ input:hover::placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top:7px;
+  margin-bottom:7px;
 }
 #todo-list button {
   border: none;
