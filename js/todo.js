@@ -19,10 +19,10 @@ function deleteToDo(event) {
 function paintToDo(newToDo) {
   const li = document.createElement("li");
   li.id = newToDo.id;
-  const button = document.createElement("button");
-  button.innerText = "❌";
   const span = document.createElement("span");
   span.innerText = newToDo.text;
+  const button = document.createElement("button");
+  button.innerText = "❌";
   button.addEventListener("click", deleteToDo);
   li.appendChild(button);
   li.appendChild(span);
